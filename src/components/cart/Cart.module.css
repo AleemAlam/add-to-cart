@@ -1,0 +1,35 @@
+.cartListContainer {
+  width: 480px;
+}
+.cartListHead {
+  text-align: left;
+}
+
+.cartTotalCard {
+  width: 480px;
+  border: 1px solid black;
+  margin-top: 16px;
+  text-align: left;
+}
+.cartTotalCard > h3,
+.cartTotalCardRow > p {
+  margin: 4px 0px;
+}
+.cartTotalCard > h3 {
+  padding: 8px;
+}
+.cartTotalCardRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 8px;
+}
+.cartTotalCardRow:last-child {
+  margin-top: 12px;
+  padding: 8px;
+  background-color: lightgray;
+}
+
+.emptyState {
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+.card {
+  width: 300px;
+  position: relative;
+}
+
+.img {
+  width: 298px;
+  height: 280px;
+  border: 1px solid lightgray;
+}
+
+.discount {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: green;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+  padding: 16px 8px;
+  background-color: lightgray;
+}
+
+.cardPrice {
+  display: flex;
+  justify-content: space-between;
+}
+.cardContent > h6 {
+  margin: 0;
+}
+.price > h4 {
+  display: inline;
+  text-decoration: line-through;
+}
+.price > h4:last-child {
+  text-decoration: none;
+  margin: 0px 8px;
+}

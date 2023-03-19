@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contentContainer {
+  display: flex;
+  gap: 32px;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
